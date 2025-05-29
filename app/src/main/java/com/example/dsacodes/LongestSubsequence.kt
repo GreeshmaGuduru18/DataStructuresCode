@@ -9,7 +9,7 @@ package com.example.dsacodes
 
 fun main() {
     val nums = listOf(10, 9, 2, 5, 3, 7, 101, 18)
-    println("Length of LIS: ${longestIncreasingSubsequence(nums)}")  // Output: 4
+    println("Length of LIS: ${longestIncreasingSubsequence(nums)}") 
 }
 
 fun longestIncreasingSubsequence(nums: List<Int>): Int {
