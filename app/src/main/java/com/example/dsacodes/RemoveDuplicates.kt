@@ -14,9 +14,8 @@ fun removeDuplicates(nums: IntArray): Int {
 }
 
 fun main(){
-    val num3 = intArrayOf(1, 1, 2)
-    val newLength = removeDuplicates(num3)
+    val num = intArrayOf(1, 1, 2)
+    val newLength = removeDuplicates(num)
 
-    println("Length: $newLength")
-    println("Modified Array: ${num3.take(newLength)}")
+    println("Modified Array: ${num.take(newLength)}")
 }
