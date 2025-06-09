@@ -17,6 +17,6 @@ fun main() {
     if (areAllAnagrams(words)) {
         println("All strings are anagrams.")
     } else {
-        println("Strings are not all anagrams.")
+        println("Strings are not all anagrams")
     }
 }
