@@ -25,8 +25,8 @@ fun isSubstring(mainStr: String, subStr: String): Boolean {
     return false
 }
 fun main() {
-    val str1 = "abcd"
-    val str2 = "cdab"
+    val str1 = "abcde"
+    val str2 = "edcba"
 
     if (areRotations(str1, str2)) {
         println("Yes, '$str2' is a rotation of '$str1'")
