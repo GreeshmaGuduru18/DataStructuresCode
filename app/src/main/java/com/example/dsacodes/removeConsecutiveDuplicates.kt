@@ -21,5 +21,5 @@ fun removeConsecutiveDuplicates(input: String): String {
 fun main() {
     val input = "ssuuppperrrrr coooommpuuuuuuuuttttter"
     val output = removeConsecutiveDuplicates(input)
-    println(output) // Output: super computer
+    println(output)
 }
