@@ -27,7 +27,7 @@ class RemoveConsecutiveDuplicatesKtTest {
     }
 
     @Test
-    fun `handles string with all same characters`() {
+    fun `string with all same characters`() {
         val input = "aaaaaaa"
         val result = removeConsecutiveDuplicates(input)
         assertEquals("a", result)

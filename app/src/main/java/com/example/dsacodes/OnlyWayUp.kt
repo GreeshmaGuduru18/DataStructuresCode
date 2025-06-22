@@ -4,10 +4,10 @@ fun onlyWayUp(B: Int, ar: ArrayList<Int>): Int {
     var count = 0
     for (i in 1 until ar.size) {
         if (ar[i] <= ar[i - 1]) {
-            val diff = ar[i - 1] - ar[i] + 1
-            val steps = (diff + B - 1) / B
-            ar[i] += steps * B
-            count += steps
+            // ar[i] + k * B > ar[i - 1]
+            val bCount = ((ar[i - 1] - ar[i]) / B) + 1
+            ar[i] += bCount * B
+            count += bCount
         }
     }
     return count
